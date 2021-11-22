@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # encoding: utf-8
 
 
@@ -150,10 +150,10 @@ def get_blog_setting():
         from blog.models import BlogSettings
         if not BlogSettings.objects.count():
             setting = BlogSettings()
-            setting.sitename = 'djangoblog'
-            setting.site_description = '基于Django的博客系统'
-            setting.site_seo_description = '基于Django的博客系统'
-            setting.site_keywords = 'Django,Python'
+            setting.sitename = 'wca和lwj的空间'
+            setting.site_description = 'wca和lwj的空间'
+            setting.site_seo_description = 'wca和lwj的空间'
+            setting.site_keywords = 'wca,lwj'
             setting.article_sub_length = 300
             setting.sidebar_article_count = 10
             setting.sidebar_comment_count = 5
